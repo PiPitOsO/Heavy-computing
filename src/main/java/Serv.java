@@ -17,8 +17,6 @@ public class Serv {
                 String line;
                 while ((line = in.readLine()) != null) {
 
-//                    out.println(line);
-
                     int[] arr = new int[Integer.parseInt(line)];
                     arr[0] = 0;
                     arr[1] = 1;
@@ -39,5 +37,4 @@ public class Serv {
             }
         }
     }
-
 }
